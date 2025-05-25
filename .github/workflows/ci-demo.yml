@@ -1,1 +1,13 @@
+name: Demo CI Workflow
+
+on:
+  workflow_dispatch:  # Enables manual triggering from the Actions tab
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 21f3003056@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
 
